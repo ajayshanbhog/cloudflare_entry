@@ -10,7 +10,7 @@ api_key = os.getenv('API_KEY')
 zone_id = os.getenv('ZONE_ID')
 
 # Subdomain and IP address for the A record
-subdomain = 'filesgpu2'
+subdomain = os.getenv('SUBDOMAIN')
 ip_address = os.getenv("IP_ADDR")
 
 # Construct the API endpoint
